@@ -1,0 +1,19 @@
+{
+  "name": "reddit-image-downloader",
+  "version": "1.0.0",
+  "description": "Downloads images from a specified subreddit's new.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "download": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pGooch",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "he": "^1.2.0",
+    "node-fetch": "^2.6.1",
+    "title-case": "^3.0.3"
+  }
+}
